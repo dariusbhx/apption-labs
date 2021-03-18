@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-position: center center;
+  background-color: white;
+  color: white;
+  /*173753*/
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: salmon;
+}
+.wrapper {
+  width: 550px;
+  margin: 5% auto;
+}
+
+form {
+  margin-top: 12%;
+}
+
+.form-area {
+  display: flex;
+  background: #0a5568;
+  border-radius: 25px;
+  padding: 1.9em;
+}
+
+.msg-area {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+}
+
+.msg-area > textarea {
+  flex: 1;
+  width: 100%;
+  background: transparent;
+  color: #fff;
+}
+
+.details-area {
+  flex: 1;
+}
+.checkbox-container {
+  display: flex;
+}
+.details-area input {
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  border-radius: 40px;
+}
+
+.details-area input {
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+label {
+  color: white;
+  line-height: 40px;
+  font-family: audiohead;
+}
+
+input[type="file"] {
+  align-items: center;
+  text-align: center !important;
+  padding-left: 31%;
+}
+
+.image-input {
+  align-items: center;
+}
+.submit-btn {
+  color: #fff;
+  border: 0;
+  background: tomato;
+  border-radius: 40px;
+  font-family: poppins;
+  font-size: 16px;
+  padding: 1em;
+  width: 20em;
+}
+button:hover {
+  background-color: salmon;
+}
+
+input[type="checkbox"] {
+  transform: translate(-325px, 20px);
+}
+
+.checkbox-label {
+  width: 20em;
+}
+@media (max-width: 960px) {
+  .wrapper {
+    width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper {
+    width: 400px;
+  }
+  input[type="file"] {
+    padding-left: 28%;
+  }
+}
+@media (max-width: 576px) {
+  .wrapper {
+    width: 350px;
+  }
+  input[type="file"] {
+    padding-left: 25%;
+  }
+  .submit-btn {
+    width: 12em;
+  }
+}
+
+@media (max-width: 392px) {
+  .wrapper {
+    width: 256px;
+  }
+  .desc-area > textarea {
+    width: 90%;
+    min-width: 13em !important;
+  }
+  input[type="file"] {
+    padding-left: 1em;
+    font-size: 0.6em;
+  }
+  submit-btn {
+    padding: 15px;
+  }
+  input[type="text"] {
+    width: 90% !important;
+    display: block;
+  }
+}
+
+.btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.img-file-container {
+  border: 2px solid gre;
+  margin: 10% 10%;
+  padding-left: 3%;
+  width: 100%;
+  align-self: center;
+  margin: auto;
+  margin-top: 2%;
+  font-size: 0.8em;
+  justify-content: center;
+}
+
+/* #114B5F,#1A936F, 88D498,C6DABF, F3E9D2*/
+/*F3CA40 F08A4B F2A541 */ ;

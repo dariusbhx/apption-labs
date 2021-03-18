@@ -147,6 +147,12 @@ input[type="checkbox"] {
   width: 100%;
   justify-content: center;
 }
+.view-btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5em;
+}
 
 .img-file-container {
   border: 2px solid gre;

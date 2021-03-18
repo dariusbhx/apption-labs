@@ -65,7 +65,10 @@ const Form = () => {
 
         
           <Link to = "/view">
-            <button type="submit" className="submit-btn" >Click here to view form posts</button>
+            <div className="view-btn-container">
+               <button type="submit" className="submit-btn" >Click here to view form posts</button>
+            </div>
+           
           </Link>
         
      </div> 

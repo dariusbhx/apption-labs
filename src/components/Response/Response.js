@@ -5,7 +5,7 @@ const Response = ({response}) => {
     return (
         <div>
             <h1>Form data</h1>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem', color: "black" }}>
                 <Card.Body>
                     <Card.Title>{response.name}</Card.Title>
                     <Card.Text>

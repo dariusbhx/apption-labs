@@ -12,7 +12,7 @@ app.use('/formdata', formRoutes)
 const __dirname = path.resolve();
 
 dotenv.config()
-app.use(express.static(path.join(__dirname, "../build")))
+app.use(express.static(path.join(__dirname, "..","build")))
 app.use(express.static("public"))
 
 const PORT = process.env.PORT || 5000
